@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>MG: La Dee Dah</title>
+<link rel="stylesheet" href="mgstyle.css" type="text/css" media="screen" />
+<style>
+#box1 {position: relative; top: 0px; left: 0px; z-index: 0}
+#box2 {position: relative; top: -10px; left: 500px; z-index: 0}
+#box3 {position: relative; top: 0px; left: 100px; z-index: 0}
+#box4 {position: relative; top: -30px; left: 10px; z-index: 0}
+#box5 {position: relative; top: -60px; left: 250px; z-index: 0}
+#box6 {position: relative; top: -20px; left: 80px; z-index: 0}
+#box7 {position: relative; top: 0px; left: 0px; z-index: 0}
+#box8 {position: relative; top: 40px; left: 50px; z-index: 0}
+#box9 {position: relative; top: 70px; left: 10px; z-index: 0}
+#box10 {position: relative; top: 0px; left: 180px; z-index: 1}
+#box11 {position: relative; top: 20px; left: 50px; z-index: 0}
+#box12 {position: relative; top: 50px; left: 20px; z-index: 0}
+#box13 {position: relative; top: 80px; left: 90px; z-index: 0}
+#box14 {position: relative; top: 20px; left: 340px; z-index: 0}
+#box15 {position: relative; top: -20px; left: 0px; z-index: 0}
+#box16 {position: relative; top: -50px; left: 180px; z-index: 0}
+#box17 {position: relative; top: 0px; left: 70px; z-index: 0}
+#box18 {position: relative; top: -20px; left: 0px; z-index: 0}
+#box19 {position: relative; top: -10px; left: 600px; z-index: 0}
+#box20 {position: relative; top: 20px; left: 100px; z-index: 0}
+#box21 {position: relative; top: 0px; left: 0px; z-index: 1}
+#box22 {position: relative; top: 10px; left: 250px; z-index: 0}
+#box23 {position: relative; top: -30px; left: 20px; z-index: 0}
+#box24 {position: relative; top: 20px; left: 0px; z-index: 0}
+#box25 {position: relative; top: 30px; left: 60px; z-index: 0}
+#box26 {position: relative; top: 0px; left: 20px; z-index: 0}
+#box27 {position: relative; top: 20px; left: 190px; z-index: 0}
+#box28 {position: relative; top: 0px; left: 0px; z-index: 0}
+.top {z-index: 2; position: relative}
+.bottom {z-index: 1; position: relative}
+#ladeedah {cursor: move;}
+</style>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="/js/jquery.ui.touch-punch.js"></script>
+<script>
+$(document).ready(function() {
+    var a = 3;
+    $('#box1,#box2,#box3,#box4,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box20,#box21,#box22,#box23,#box24,#box25,#box26,#box27,#box28').draggable({
+   start: function(event, ui) { $(this).css("z-index", a++); }
+});
+    $('#ladeedah div').mousedown(function() {
+        $(this).addClass('top').removeClass('bottom');
+        $(this).siblings().removeClass('top').addClass('bottom');
+        $(this).css("z-index", a++);
+
+    });
+});
+</script>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="leftnav">
+
+<h1><a href="index.html">Marisa Gertz</a></h1>
+
+<ul>
+	<li><h3><a href="Projects.html">PROJECTS</a></h3></li>
+    <li><h3><a href="About.html">ABOUT</a></h3></li>
+    <li><h3><a href="Contact.html">CONTACT</a></h3></li>
+</ul>
+
+</div>
+
+<div id="projecttext">
+
+<h5>La Dee Dah</h5>
+<h4>Ongoing</h4>
+<p>Photographs taken compulsively. A self portrait. </p>
+
+<div id="ladeedah">
+    <div id="box1"><img src="/images/ladeedah/ladeedah-01.jpg"/></div>
+    <div id="box2"><img src="/images/ladeedah/ladeedah-02.jpg"/></div>
+    <div id="box3"><img src="/images/ladeedah/ladeedah-03.jpg"/></div>
+    <div id="box4"><img src="/images/ladeedah/ladeedah-04.jpg"/></div>
+    <div id="box5"><img src="/images/ladeedah/ladeedah-05.jpg"/></div>
+    <div id="box6"><img src="/images/ladeedah/ladeedah-06.jpg"/></div>
+    <div id="box7"><img src="/images/ladeedah/ladeedah-07.jpg"/></div>
+    <div id="box8"><img src="/images/ladeedah/ladeedah-08.jpg"/></div>
+    <div id="box9"><img src="/images/ladeedah/ladeedah-09.jpg"/></div>
+    <div id="box10"><img src="/images/ladeedah/ladeedah-10.jpg"/></div>
+    <div id="box11"><img src="/images/ladeedah/ladeedah-11.jpg"/></div>
+    <div id="box12"><img src="/images/ladeedah/ladeedah-12.jpg"/></div>
+    <div id="box13"><img src="/images/ladeedah/ladeedah-13.jpg"/></div>
+    <div id="box14"><img src="/images/ladeedah/ladeedah-14.jpg"/></div>
+    <div id="box15"><img src="/images/ladeedah/ladeedah-15.jpg"/></div>
+    <div id="box16"><img src="/images/ladeedah/ladeedah-16.jpg"/></div>
+    <div id="box17"><img src="/images/ladeedah/ladeedah-17.jpg"/></div>
+    <div id="box18"><img src="/images/ladeedah/ladeedah-18.jpg"/></div>
+    <div id="box19"><img src="/images/ladeedah/ladeedah-19.jpg"/></div>
+    <div id="box20"><img src="/images/ladeedah/ladeedah-20.jpg"/></div>
+    <div id="box21"><img src="/images/ladeedah/ladeedah-21.jpg"/></div>
+    <div id="box22"><img src="/images/ladeedah/ladeedah-22.jpg"/></div>
+    <div id="box23"><img src="/images/ladeedah/ladeedah-23.jpg"/></div>
+    <div id="box24"><img src="/images/ladeedah/ladeedah-24.jpg"/></div>
+    <div id="box25"><img src="/images/ladeedah/ladeedah-25.jpg"/></div>
+    <div id="box26"><img src="/images/ladeedah/ladeedah-26.jpg"/></div>
+    <div id="box27"><img src="/images/ladeedah/ladeedah-27.jpg"/></div>
+    <div id="box28"><img src="/images/ladeedah/ladeedah-28.jpg"/></div>
+</div>
+
+</div>
+
+<div id="projectimages">
+
+
+
+
+</div>
+
+
+
+</div>
+
+</body>
+</html>
+
+
