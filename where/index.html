@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="whereru.css" />
+<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+<title>GIFRIENDS: where r u</title>
+<script type="text/javascript">
+function preloadimages(arr){
+    var newimages=[]
+    var arr=(typeof arr!="object")? [arr] : arr //force arr parameter to always be an array
+    for (var i=0; i<arr.length; i++){
+        newimages[i]=new Image()
+        newimages[i].src=arr[i]
+    }
+}
+ 
+preloadimages(['texting.gif', 'keys.gif', 'aquarium.gif', '20130715_ASL_6407_2.gif', 'Spliced_1.gif', 'swing_gif.gif', 'fass_stair_ocean.gif', 'piano.gif', 'dog.gif', 'WindowPeekingGIF_BIG.gif', 'waiting_code.gif']).done(function(images){
+
+})
+</script>
+<script type="text/javascript">
+lastone='empty'; 
+function showIt(lyr) 
+{ 
+if (lastone!='empty') lastone.style.display='none'; 
+lastone=document.getElementById(lyr); 
+lastone.style.display='block';
+}
+</script>
+<script language="JavaScript">
+
+      
+function pickimg(){
+var imagenumber = 11 ;
+var randomnumber = Math.random() ;
+var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1;
+images = new Array
+images[1] = "texting.gif"
+images[2] = "keys.gif"
+images[3] = "aquarium.gif"
+images[4] = "20130715_ASL_6407_2.gif"
+images[5] = "Spliced_1.gif"
+images[6] = "swing_gif.gif"
+images[7] = "fass_stair_ocean.gif"
+images[8] = "piano.gif"
+images[9] = "dog.gif"
+images[10] = "WindowPeekingGIF_BIG.gif"
+images[11] = "waiting_code.gif"
+var image = images[rand1]
+document.randimg.src = image
+}
+</script>
+</head>
+
+<body onLoad="pickimg()">
+<div id="header"><img src="whereru-distressed.gif" alt="where r u title" width="250px"></div>
+<div id="title"><a href="" onClick="pickimg();return false;"><IMG SRC="texting.gif" name="randimg" border=0></a>
+</div>
+
+<div id="links">
+<a href="JavaScript:;" onClick="showIt('statement')" ">About</a>
+<a href="JavaScript:;" onClick="showIt('contact')" ">Contact</a>
+</div>
+
+<div id="statement" style="display:none;">
+<p>Superbudda presents an exhibition by New York GIF Collective, GIFRIENDS, titled <em>where r u</em>. Gifriends, consisting of Michael Fivis, Marisa Gertz, Peter Marquez and Alex Thebez, has been making GIFs together since 2010.</p>
+
+<p>Technology, so we are told, is disconnecting us from reality. We're too dependent on the network, addicted to our devices, overwhelmed, unable to focus, and uninterested in forming meaningful relationships with real people. </p>
+
+<p>Maybe. But we're living it another way. Untethered to one time and one place, our experience is layered and elastic. It's multi-faceted, literally. Facets of our relationships, experiences, and emotions travel with us from mind to machine and back again. </p>
+
+<p>These GIFs are portals into a layered, spontaneous, all-at-once way of living, of technology and biology working together to create a reality, augmented, shaped, and amplified. These small facets of everyday life are fragmented yet connected, commonplace yet worthy of observation.</p>
+
+<p>where r u<br />
+im here</p>
+</div>
+
+<div id="contact" style="display:none;">
+<p><span style="font-size:35pt;">We are <img src="GFLogo_transparent.gif" width="400px" alt="GIFRIENDS"/></span></p>
+<p>That's <a href="http://www.alexthebez.com/">Alex Thebez</a>, <a href="http://www.marisagertz.com/">Marisa Gertz</a>, <a href="http://www.mifi.net">Michael Fivis</a>, and <a href="http://www.petermarquez.com/">Peter Marquez</a>, if you're curious.</p>
+<p>Check out our other projects on <a href="http://www.giftedtogether.com/">giftedtogether.com</a>.</p>
+<p>Say <a href="mailto:hello@giftedtogether.com/">hello@giftedtogether.com</a></p>
+</div>
+
+</body>
+
+</html>
