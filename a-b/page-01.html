@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="point-b-style.css" />
+<title>GIFRIENDS: From Point A to Point B</title>
+
+</head>
+
+<body>
+<div class="wrapper">
+<div class="nav">
+<a href="index.html"><img src="home.png" alt="home" class="icons"></a><br />
+<a href="thumbnails.html"><img src="thumbnail.png" alt="thumbnail view" class="icons"></a><br />
+<a href="#" onclick="var audioElm = document.getElementById('background_audio'); audioElm.muted = !audioElm.muted;"><img src="mute.png" alt="mute" class="icons"></a><br />
+<a href="page-01.html"><img src="go-next.png" alt="next"></a><br />
+</div>
+
+<div id="gif">
+<video autoplay="autoplay" loop="loop">
+  <source src="tumblr_lo92fi2KVp1qzerbio1_500.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<audio loop="loop" autoplay="autoplay" id="background_audio">
+  <source src="Insidetrains_01.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+</div>
+<div class="nudge"></div>
+</div>
+<div id="footer">
+<p><a href="/">Home</a>
+<a href="thumbnails.html">Thumbnails</a>
+<a href="mailto:hello@fearthebirds.com">Contact</a></p>
+</div>
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,5 @@
+body
+{
+background-image:url('whitedot.png');
+background-repeat:repeat-y;
+}

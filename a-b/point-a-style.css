@@ -1,0 +1,180 @@
+body
+{
+background-image:url('whitedot.png');
+font-family:helvetica;
+font-size:10pt;
+line-height:24px;
+letter-spacing:0.1em;
+color:#1E1E1E;
+margin:0px;
+}
+
+p
+{
+margin-top:0;
+margin-bottom:20px;
+}
+
+#title
+{
+margin:50px auto;
+width:755px;
+}
+
+.go
+{
+margin: 50px auto;
+width:76px;
+}
+
+.go a:hover
+{
+opacity:0.7;
+}
+
+#statement
+{
+margin:50px auto 10px auto;
+width:860px;
+padding:50px 50px 30px 40px;
+border:1px solid #A5A5A5;
+background-color:#FFF;
+}
+
+#gifriends
+{
+margin:10px auto 80px auto;
+width:950px;
+height:130px;
+}
+
+.link-box
+{
+width:180px;
+height:130px;
+margin-right:10px;
+border:1px solid #A5A5A5;
+background-color:#FFF;
+float:left;
+}
+
+.link-box p
+{
+text-align:center;
+margin:50px 0;
+}
+
+.link-box p a
+{
+font-family:helvetica;
+font-size:12pt;
+font-weight:bold;
+font-style:italic;
+text-decoration:none;
+color:#1E1E1E;
+}
+
+.link-box p a:hover
+{
+color:#927591;
+}
+
+#LOGO
+{
+background-color:#000;
+}
+
+#LOGO p a
+{
+color:#FFF;
+top:-30px;
+position:relative;
+}
+
+#LOGO p a:hover
+{
+color:#927591;
+}
+
+#LOGO p .logo
+{
+margin:0;
+text-align:center;
+}
+
+#AT
+{
+/*background-image:url('alex-thebez.png');*/
+}
+
+#MG
+{
+/*background-image:url('marisa-gertz.png');*/
+}
+
+#MF
+{
+/*background-image:url('michael-fivis.png');*/
+}
+
+#PM 
+{
+width:180px;
+height:130px;
+border:1px solid #A5A5A5;
+background-color:#FFF;
+/*background-image:url('peter-marquez.png');*/
+float:left;
+}
+
+#PM p 
+{
+text-align:center;
+margin:50px 0;
+}
+
+#PM p a
+{
+font-family:helvetica;
+font-size:12pt;
+font-weight:bold;
+font-style:italic;
+text-decoration:none;
+color:#1E1E1E;
+}
+
+#PM p a:hover
+{
+color:#927591;
+}
+
+#footer
+{
+float:left;
+padding:15px 0;
+min-width:100%;
+height:20px;
+background-color:#ffffff;
+border-top:1px solid #A5A5A5;
+font-size:9px;
+}
+
+#footer p
+{
+margin:0px auto;
+width:950px;
+}
+
+#footer a 
+{
+color:#1E1E1E;
+text-decoration:none;
+margin:0 15px 0 0;
+}
+
+#footer p a:hover
+{
+color:#999;
+}
+
+

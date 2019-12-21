@@ -1,0 +1,46 @@
+html{height:100%;}
+
+body
+{
+background-color:#000;
+height:100%;
+margin:0;
+}
+
+#gif
+{
+width:1000px;
+margin-left:auto;
+margin-right:auto; 
+margin-top:0;
+}
+
+  .scrollable {
+ 
+  /* required settings */
+  position:relative;
+  overflow:hidden;
+ 
+  /*
+  vertical scrollables have typically larger height than width but
+  not now
+  */
+  height: 2000px;
+  width: 1000px;
+  }
+ 
+  /* root element for scrollable items */
+  .scrollable .items {
+  position:absolute;
+ 
+  /* this time we have very large space for the height */
+  height:20000em;
+  }
+  
+  .item img {margin-bottom:30px}
+
+
+
+
+
+
