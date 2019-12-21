@@ -1,0 +1,67 @@
+body
+{
+background-image:url('bright_squares.png');
+font-family:arial;
+font-size:10pt;
+line-height:24px;
+letter-spacing:0.1em;
+color:#1E1E1E;
+margin:0px;
+}
+
+p
+{
+margin-top:0;
+margin-bottom:20px;
+}
+
+
+
+#header
+{
+margin:30px auto;
+width:250px;
+}
+
+#title
+{
+margin:30px auto;
+width:500px;
+}
+
+#links
+{
+margin:0px auto 0px auto;
+width:140px;
+}
+
+#links a
+{
+padding:0 10px 0 10px;
+text-decoration:none;
+color:#666666;
+}
+
+@-moz-document url-prefix() {
+                        #links a{
+                        font-size:9pt;
+                    }
+                    }
+
+
+#statement, #contact
+{
+margin:50px auto 10px auto;
+width:700px;
+padding:50px 50px 30px 40px;
+border-top:1px solid #A5A5A5;
+background-color:#FFF;
+}
+
+
+
+
+
+
+
+
